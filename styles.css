@@ -49,18 +49,23 @@ body > main {
 header, footer {
   background-color: #333;
   color: #fff;
-  padding: 1rem 0;
   text-align: center;
 }
 
 header nav a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
-  margin: 0 1rem;
+  padding: 1rem 0.5rem;
 }
 
 header nav a.active {
-  font-weight: bold;
+  background: #444444;
+}
+
+footer > * {
+  display: inline-block;
+  padding: 1rem 0;
 }
 
 main {
@@ -81,9 +86,6 @@ h1, h2, h3 {
 
 .container > * {
   margin-bottom: 1rem;
-}
-.container > * {
-  text-align: justify;
 }
 
 #app {
